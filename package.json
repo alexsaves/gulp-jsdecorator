@@ -1,0 +1,28 @@
+{
+  "name": "gulp-jsdecorator",
+  "version": "0.0.1",
+  "description": "Simple JavaScript Decorator Gulp Plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexsaves/gulp-jsdecorator.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "gulp",
+    "decorator",
+    "decoration"
+  ],
+  "author": "Alexei White <alexei.white@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.1.0",
+    "ejs": "^2.3.1",
+    "gulp-util": "^3.0.5",
+    "strftime": "^0.9.2",
+    "through": "^2.3.7"
+  }
+}
