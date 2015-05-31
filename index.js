@@ -137,3 +137,9 @@ function jsDecorator(configoverride) {
     this.emit('end');
   });
 }
+
+/**
+ * Expose the interface
+ * @type {jsDecorator}
+ */
+module.exports = jsDecorator;
