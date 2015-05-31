@@ -110,10 +110,10 @@ var extend = function () {
  */
 function jsDecorator(configoverride) {
   // Get the configuration
-  var config = this.extend({
+  var config = extend({
       useclosure: false,
       closureargs: {}
-    }, configoverride || this.config),
+    }, configoverride || {}),
     hasFirstFile = false,
     firstFl = null,
     dec = new decorator();

@@ -1,6 +1,6 @@
 {
   "name": "gulp-jsdecorator",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple JavaScript Decorator Gulp Plugin",
   "main": "index.js",
   "scripts": {
