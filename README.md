@@ -14,7 +14,14 @@ var decorator = require("gulp-jsdecorator");
  */
 gulp.task('js', function () {
   gulp.src(['./src/**/*.js'])
-    .pipe(decorator({}))
+    .pipe(decorator({
+        namespacecheck: ["MyClass"],
+        useclosure: true,
+        closureargs: {
+          'config': 'MyConfigObject'
+        },
+        donotmodifymessage: true
+      }))
     .pipe(gulp.dest('./dist/'));
 });
 ```
